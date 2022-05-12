@@ -1,0 +1,11 @@
+Model Information:
+* title:	Range Rover Sport SVR
+* source:	https://sketchfab.com/3d-models/range-rover-sport-svr-956ca9d890304450bb8c448557c2c07e
+* author:	iSteven (https://sketchfab.com/Steven007)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Range Rover Sport SVR" (https://sketchfab.com/3d-models/range-rover-sport-svr-956ca9d890304450bb8c448557c2c07e) by iSteven (https://sketchfab.com/Steven007) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
