@@ -6,6 +6,27 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <model-viewer src="3d model/laptop/scene.gltf" camera-controls auto-rotate ar ios-src="3d model\laptop\CyberPunk_Laptop_Concept_Design.usdz"></model-viewer>
+    <h1>3d Model Testing Ground</h1>
+
+    <model-viewer 
+
+    ar-modes="webxr scene-viewer quick-look" 
+    camera-controls 
+    environment-image="neutral" 
+    poster="3d model/laptop/loader.png" 
+    shadow-intensity="1"
+
+    id="reveal"
+    loading="eager"
+    background-color="#000000" 
+    src="3d model/laptop/scene.gltf"
+    camera-controls 
+    auto-rotate 
+    ar 
+    ar-scale="10%"
+    ios-src="3d model\laptop\CyberPunk_Laptop_Concept_Design.usdz"
+    scale="0.1"
+    >
+  </model-viewer>
   </body>
 </html>
