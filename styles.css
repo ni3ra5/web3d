@@ -3,4 +3,12 @@ body {
     height: 100vh;
     margin: 0;
     overflow: hidden;
+    background-color: black;
   }
+
+model-viewer
+{
+  width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+}
