@@ -1,6 +1,22 @@
 body {
-    width: 100vw;
-    height: 100vh;
-    margin: 0;
-    overflow: hidden;
-  }
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+h1{
+  color: white;
+  text-align: center;
+} 
+
+model-viewer {
+  width: 80vw;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+model-viewer#reveal {
+  --poster-color: transparent;
+}
