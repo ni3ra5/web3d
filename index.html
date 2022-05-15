@@ -1,32 +1,34 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset=UTF-8 />
-    <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <meta charset="UTF-8" />
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="my.css" />
   </head>
   <body>
     <h1>3d Model Testing Ground</h1>
 
-    <model-viewer 
-
-    ar-modes="webxr scene-viewer quick-look" 
-    camera-controls 
-    environment-image="neutral" 
-    poster="loader.gif" 
-    shadow-intensity="1"
-
-    id="reveal"
-    loading="eager"
-    background-color="#000000" 
-    src="3d model/rover/scene.gltf"
-    camera-controls 
-    auto-rotate 
-    ar 
-    ar-scale="10%"
-    ios-src="3d model\rover\Range_Rover_Sport_SVR.usdz"
-    scale="0.1"
+    <!-- <model-viewer
+      ar-modes="webxr scene-viewer quick-look"
+      camera-controls
+      environment-image="neutral"
+      poster="3d model\model\poster1.png"
+      id="reveal"
+      loading="eager"
+      background-color="#000000"
+      src="3d model\model\Sketchfab_Scene.gltf"
+      camera-controls
+      auto-rotate
+      ar
+      ios-src="3d model\rover\Range_Rover_Sport_SVR.usdz"
     >
-  </model-viewer>
+    </model-viewer> -->
+
+    <iframe src="new/index.html" frameborder="0"></iframe>
+
+
   </body>
 </html>
