@@ -19,17 +19,17 @@ model-viewer#reveal {
 }
 
 .Hotspot {
-  background: #fff;
+  background: #d7b722;
   border-radius: 32px;
   border: 0;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.25); */
   box-sizing: border-box;
   cursor: pointer;
-  height: 24px;
+  height: 15px;
   padding: 8px;
   position: relative;
   transition: opacity 0.3s;
-  width: 24px;
+  width: 15px;
 }
 
 .Hotspot:not([data-visible]) {
@@ -62,7 +62,7 @@ model-viewer#reveal {
   font-family: 'Kanit', sans-serif;
   font-style: italic;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 600;
   left: calc(100% + 1em);
   max-width: 128px;
