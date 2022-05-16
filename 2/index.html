@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>&lt;model-viewer&gt; template</title>
+    <meta charset="utf-8" />
+    <meta name="description" content="&lt;model-viewer&gt; template" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link type="text/css" href="./styles.css" rel="stylesheet" />
+    <link type="text/css" href="./../3dmodel.css" rel="stylesheet" />
+    <!-- OPTIONAL: The :focus-visible polyfill removes the focus ring for some input types -->
+    <script
+      src="https://unpkg.com/focus-visible@5.0.2/dist/focus-visible.js"
+      defer
+    ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- <model-viewer> HTML element -->
+    <model-viewer
+      id="reveal"
+      bounds="tight"
+      enable-pan
+      src="Sketchfab_Scene.gltf"
+      ios-src="./Huracan_Falcon.usdz"
+      ar
+      ar-modes="webxr scene-viewer quick-look"
+      camera-controls
+      poster="poster.png"
+      shadow-intensity="1"
+      environment-image="neutral"
+      exposure="1"
+      camera-orbit="-1646deg 74.53deg auto"
+      auto-rotate
+    >
+      <button
+        class="Hotspot"
+        slot="hotspot-2"
+        data-position="-0.11981855210008749m 0.014167588307535377m -0.06412143590458874m"
+        data-normal="-0.4080865333302885m 0.7418399641897355m -0.5321079296960713m"
+        data-visibility-attribute="visible"
+      >
+        <div class="HotspotAnnotation">MIRROR</div></button
+      ><button
+        class="Hotspot"
+        slot="hotspot-4"
+        data-position="-0.08495959748023237m -0.0248802131429892m -0.2162001303423106m"
+        data-normal="-0.3201270602482214m 0.7467372116545274m -0.5830113223834107m"
+        data-visibility-attribute="visible"
+      >
+        <div class="HotspotAnnotation">HEADLIGHTS</div></button
+      ><button
+        class="Hotspot"
+        slot="hotspot-6"
+        data-position="0.04338058838928597m 0.022955109696822153m -0.0997824477303882m"
+        data-normal="0.056866130072426184m 0.9299406051941866m -0.36328599486032465m"
+        data-visibility-attribute="visible"
+      >
+        <div class="HotspotAnnotation">WIND SHIELD</div></button
+      ><button
+        class="Hotspot"
+        slot="hotspot-10"
+        data-position="-0.003945848041580151m 0.03006179299633704m 0.15216149674632692m"
+        data-normal="-0.016301001280632003m 0.9737874690396074m 0.2268749490329079m"
+        data-visibility-attribute="visible"
+      >
+        <div class="HotspotAnnotation">ENGINE</div></button
+      ><button
+        class="Hotspot"
+        slot="hotspot-28"
+        data-position="-0.044899034965023905m -0.028383366088884643m 0.25629446725653254m"
+        data-normal="-0.13151397223564892m 0.767615059496118m 0.6272728238506531m"
+        data-visibility-attribute="visible"
+      >
+        <div class="HotspotAnnotation">EXHAUST</div></button
+      ><button
+        class="Hotspot"
+        slot="hotspot-29"
+        data-position="0.12052108058216814m -0.07206005608566708m 0.1731609974497264m"
+        data-normal="0.996522690976045m 0.08331895205825635m 0.0006918076149193714m"
+        data-visibility-attribute="visible"
+      >
+        <div class="HotspotAnnotation">TIRE</div>
+      </button>
+      <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+      </div>
+      <button slot="ar-button" id="ar-button">View in your space</button>
+      <div id="ar-prompt">
+        <img src="ar_hand_prompt.png" />
+      </div>
+    </model-viewer>
+    <script src="script.js"></script>
+    <!-- Loads <model-viewer> for browsers: -->
+    <script
+      type="module"
+      src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"
+    ></script>
+  </body>
+</html>
