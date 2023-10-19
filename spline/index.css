@@ -21,3 +21,12 @@ iframe
   height: 100vh;
   margin: 0 auto;
 }
+
+@media only screen and (max-width: 767px){
+    iframe
+    {
+        width: 100vw;
+        height: 50vh;
+        margin-top: 50%;
+    }
+}
